@@ -1,0 +1,18 @@
+$borderRadius: 5px;
+._previewer-area {
+  margin: 30px;
+  background-color: blue;
+  width: 48.5%;
+  height: 590px;
+  border-radius: $borderRadius;
+  textarea {
+    overflow: hidden;
+    resize: vertical;
+    border: none;
+    width: 98.3%;
+    height: 100%;
+    border-radius: $borderRadius;
+    padding: 5px;
+    outline-color: darkgrey;
+  }
+}
