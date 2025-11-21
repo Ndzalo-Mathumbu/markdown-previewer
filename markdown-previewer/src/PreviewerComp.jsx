@@ -1,6 +1,7 @@
 import "./PreviewerComp.scss";
+import "./EditorComp.jsx";
 
-export const PREVIEWER = function () {
+export const PREVIEWER = function ({ outCome }) {
   console.log("NK..");
   return (
     <div className="_previewer-area">
@@ -8,7 +9,9 @@ export const PREVIEWER = function () {
         name="_previewer"
         id="_previewer"
         placeholder=" PREVIEWER:"
-      ></textarea>
+        value={outCome}
+        readOnly
+      />
     </div>
   );
 };

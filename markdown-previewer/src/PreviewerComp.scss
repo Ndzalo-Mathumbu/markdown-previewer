@@ -1,7 +1,6 @@
 $borderRadius: 5px;
 ._previewer-area {
   margin: 30px;
-  background-color: blue;
   width: 48.5%;
   height: 590px;
   border-radius: $borderRadius;
@@ -13,6 +12,7 @@ $borderRadius: 5px;
     height: 100%;
     border-radius: $borderRadius;
     padding: 5px;
-    outline-color: darkgrey;
+    outline-color: rgb(255, 255, 255);
+    cursor: default;
   }
 }
