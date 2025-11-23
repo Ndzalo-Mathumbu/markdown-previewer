@@ -4,15 +4,51 @@ $borderRadius: 5px;
   width: 48.5%;
   height: 590px;
   border-radius: $borderRadius;
-  textarea {
-    overflow: hidden;
-    resize: vertical;
+  ._preview-output {
+    overflow: auto;
     border: none;
     width: 98.3%;
     height: 100%;
     border-radius: $borderRadius;
     padding: 5px;
-    outline-color: rgb(255, 255, 255);
     cursor: default;
+    background-color: white;
+    word-wrap: break-word;
+  }
+  h5 {
+    margin-top: 3px;
+    margin-left: 8px;
+    font-family: sans-serif;
+    font-weight: 450;
+    color: rgb(119, 119, 119);
+  }
+  h1 {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
+  h2 {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+  }
+  table {
+    border-collapse: collapse;
+    width: 55%;
+  }
+
+  th,
+  td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f0f0f0;
+  }
+  blockquote {
+    border-left: 4px solid #cb8e84;
+    padding-left: 10px;
+    margin: 10px 0;
+    color: #456074;
   }
 }

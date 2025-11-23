@@ -7,7 +7,7 @@ export const EDITOR = function ({ outCome, setOutCome }) {
     <div className="_editor-area">
       <textarea
         name="editor"
-        id="_editor"
+        id="editor"
         placeholder=" EDITOR:"
         value={outCome}
         onChange={(e) => setOutCome(e.target.value)}

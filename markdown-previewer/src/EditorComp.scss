@@ -6,7 +6,8 @@ $borderRadius: 5px;
   height: 590px;
   border-radius: $borderRadius;
   textarea {
-    overflow: hidden;
+    overflow: auto;
+
     resize: vertical;
     border: none;
     width: 98.3%;
